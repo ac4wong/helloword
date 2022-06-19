@@ -1,5 +1,5 @@
 # test_capitalize.py
-import main
+import main as m
 
 def capital_case(x):
     return x.capitalize()
@@ -9,5 +9,5 @@ def test_capital_case():
     
 
 def test_adder():
-    assert adder(1,2) == 3
-    assert adder(1,2) == 4
+    assert m.adder(1,2) == 3
+    assert m.adder(1,2) == 4
