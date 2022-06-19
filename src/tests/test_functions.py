@@ -10,4 +10,3 @@ def test_capital_case():
 
 def test_adder():
     assert m.adder(1,2) == 3
-    assert m.adder(1,2) == 4
